@@ -214,20 +214,20 @@ window.onload=function(){
     					checkboxContainer.appendChild(document.createElement("br"));
  }  
 }
-	
-	function ponerDatosCheckboxHtml2(t,opt){
-		var checkboxContainer=document.getElementById("checkboxDiv2");
-		document.getElementById("tituloCheckbox2").innerHTML= t;
-			for(i = 0; i < opt.length; i++) { 
-   				 var input = document.createElement("input");
-   				 var label = document.createElement("label");
-   		 			label.innerHTML=opt[i];
-   					label.setAttribute("for", "color_"+i);
-   					input.type="checkbox";
-    					input.name="color";
-    					input.id="color_"+i;;    
-    					checkboxContainer.appendChild(input);
-    					checkboxContainer.appendChild(label);
-    					checkboxContainer.appendChild(document.createElement("br"));
+
+ 	function ponerDatosCheckboxHtml2(t,opt){
+ 		var checkboxContainer2=document.getElementById('checkboxDiv2');
+		 document.getElementById('tituloCheckbox2').innerHTML = t;
+ 			for (i = 0; i < opt.length; i++) { 
+   			 var input = document.createElement("input");
+   			 var label = document.createElement("label");
+   			 label.innerHTML=opt[i];
+  			  label.setAttribute("for", "color2_"+i);
+   			 input.type="checkbox";
+   			 input.name="color2";
+   			 input.id="color2_"+i;;    
+   			 checkboxContainer2.appendChild(input);
+   			 checkboxContainer2.appendChild(label);
+   			 checkboxContainer2.appendChild(document.createElement("br"));
  }  
 }
