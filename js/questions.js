@@ -61,6 +61,7 @@ window.onload=function(){
 			respuestaSelect2=parseInt(xmlDoc.getElementsByTagName("answer")[3].innerHTML);
 		
 		//Select multiple
+		/*
 		var tituloSMultiple1=xmlDoc.getElementsByTagName("title")[4].innerHTML;
 		var opcionesSMultiple1=[];
 		var noptm=xmlDoc.getElementbyId("profe005").getElementsByTagName('option').length;
@@ -69,6 +70,7 @@ window.onload=function(){
 			}
 		ponerDatosSMultipleHtml1(tituloSMultiple1,opcionesSMultiple);
 		respuestaSMultiple1=parseInt(xmlDoc.getElementsByTagName("answer")[4].innerHTML);
+		*/
 				
 	var tituloSMultiple2=xmlDoc.getElementsByTagName("title")[5].innerHTML;
 		var opcionesSMultiple2=[];
