@@ -176,19 +176,19 @@ window.onload=function(){
 
 	function ponerDatosSMultipleHtml1(t,opt){
 		document.getElementById("tituloSMultiple1").innerHTML=t;
-		var multiple = document.getElementsByTag("select")[2];
+		var select = document.getElementsByTagName("select")[2];
 		for (i=0; i < opt.length; i++){
 			var option = document.createElement("option");
 			option.text= opt[i];
 			option.value= i+1;
-			multiple.options.add(option);
+			select.options.add(option);
 			
 		}
 	}
 
 	function ponerDatosSMultipleHtml2(t,opt){
 		document.getElementById("tituloSMultiple2").innerHTML=t;
-		var select = document.getElementsByTag("select")[3];
+		var select = document.getElementsByTagName("select")[3];
 		for (i=0; i < opt.length; i++){
 			var option = document.createElement("option");
 			option.text= opt[i];
