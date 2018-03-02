@@ -35,9 +35,10 @@ window.onload=function(){
 		ponerDatosInputHtml1(tituloInput1);
 		respuestaText=xmlDoc.getElementById("profe001").getElementsByTagName("answer")[0].innerHTML;
 		
-		var tituloInput2=xmlDoc.getElementsByTagName("title")[1].innerHTML;
+		/*var tituloInput2=xmlDoc.getElementsByTagName("title")[1].innerHTML;
 		ponerDatosInputHtml2(tituloInput2);
 		respuestaText=xmlDoc.getElementById("profe002").getElementsByTagName("answer")[1].innerHTML;
+		*/
 	
 		//Select
 		var tituloSelect1=xmlDoc.getElementsByTagName("title")[2].innerHTML;
