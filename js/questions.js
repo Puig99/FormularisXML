@@ -200,7 +200,7 @@ window.onload=function(){
 	
 	function ponerDatosCheckboxHtml1(t,opt){
 		var checkboxContainer=document.getElementById('checkboxDiv1');
-		document.getElementById('tituloCheckbox1').innerHTML=t;
+		document.getElementById('tituloCheckbox1')=t;
 			for (i=0;i < opt.length; i++){
 				var input= document.createElement("input");
 				var label= document.createElement("label");
