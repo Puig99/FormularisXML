@@ -233,6 +233,5 @@ window.onload=function(){
 				
 			}
 	}
-}
 	
 	
