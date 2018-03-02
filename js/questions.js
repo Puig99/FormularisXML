@@ -176,12 +176,12 @@ window.onload=function(){
 
 	function ponerDatosSMultipleHtml1(t,opt){
 		document.getElementById("tituloSMultiple1").innerHTML=t;
-		var select = document.getElementsByTag("select")[2];
+		var multiple = document.getElementsByTag("select")[2];
 		for (i=0; i < opt.length; i++){
 			var option = document.createElement("option");
 			option.text= opt[i];
 			option.value= i+1;
-			select.options.add(option);
+			multiple.options.add(option);
 			
 		}
 	}
