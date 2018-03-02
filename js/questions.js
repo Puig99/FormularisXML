@@ -150,8 +150,8 @@ window.onload=function(){
 		document.getElementById("tituloInput2").innerHTML=t;
 	}
 	
-	function ponerDatosSelectHtml(t,opt){
-  		document.getElementById("tituloSelect").innerHTML=t;
+	function ponerDatosSelectHtml1(t,opt){
+  		document.getElementById("tituloSelect1").innerHTML=t;
   		var select = document.getElementsByTagName("select")[0];
   		for (i = 0; i < opt.length; i++) { 
     			var option = document.createElement("option");
