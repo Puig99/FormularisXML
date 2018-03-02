@@ -1,4 +1,4 @@
-var formElement =null;
+﻿var formElement =null;
 var respuestaSelect = null;
 var respuestaSMultiple = [];
 var respuestaText= null;
@@ -165,9 +165,9 @@ window.onload=function(){
 	
 }
 
-	function ponerDatosSMultiple1(t,opt){
+	function ponerDatosSMultipleHtml1(t,opt){
 		document.getElementById("tituloSMultiple1").innerHTML=t;
-		var select = document.getElementsByTag("select multiple")[0];
+		var select = document.getElementsByTag("select")[2];
 		for (i=0; i < opt.lenght; i++){
 			var option = document.createElement("option");
 			option.text= opt[i];
@@ -177,9 +177,9 @@ window.onload=function(){
 		}
 	}
 
-	function ponerDatosSMultiple2(t,opt){
+	function ponerDatosSMultipleHtml2(t,opt){
 		document.getElementById("tituloSMultiple2").innerHTML=t;
-		var select = document.getElementsByTag("select multiple")[1];
+		var select = document.getElementsByTag("select")[3];
 		for (i=0; i < opt.lenght; i++){
 			var option = document.createElement("option");
 			option.text= opt[i];
@@ -188,9 +188,42 @@ window.onload=function(){
 			
 		}
 	}
-		
 	
+	function ponerDatosCheckboxHtml1(t,opt){
+		var checkboxContainer=document.getElementById('checkboxDiv1');
+		document.getElementById('tituloCheckbox1').innerHTML=t;
+			for (i=0;i < opt.lenght; i++){
+				var input= document.createElement("input");
+				var label= document.createElement("label");
+				label.innerHTML=opt[i];
+				label.setAttribute("for", "color_"+i);
+				input.type="checkbox";
+				input.name="color";
+				input.id="color_"+i;;
+				checkboxContainer.appendChild(input);
+				checkboxContainer.appendChild(label);
+				checkboxContainer.appendChild(document.createElement("br"));
+				
+			}
+	}
 	
+	function ponerDatosCheckboxHtml2(t,opt){
+		var checkboxContainer=document.getElementById('checkboxDiv2');
+		document.getElementById('tituloCheckbox2').innerHTML=t;
+			for (i=0;i < opt.lenght; i++){
+				var input= document.createElement("input");
+				var label= document.createElement("label");
+				label.innerHTML=opt[i];
+				label.setAttribute("for", "color_"+i);
+				input.type="checkbox";
+				input.name="color";
+				input.id="color_"+i;;
+				checkboxContainer.appendChild(input);
+				checkboxContainer.appendChild(label);
+				checkboxContainer.appendChild(document.createElement("br"));
+				
+			}
+	}
 	
 	
 	
