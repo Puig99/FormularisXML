@@ -215,7 +215,7 @@ window.onload=function(){
  }  
 }
 	
-	function ponerDatosCheckboxHtml(t,opt){
+	function ponerDatosCheckboxHtml2(t,opt){
 		 var checkboxContainer=document.getElementById('checkboxDiv2');
 		 document.getElementById('tituloCheckbox2').innerHTML = t;
 			 for (i = 0; i < opt.length; i++) { 
