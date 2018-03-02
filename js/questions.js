@@ -216,18 +216,18 @@ window.onload=function(){
 }
 	
 	function ponerDatosCheckboxHtml2(t,opt){
-		 document.getElementById("tituloCheckbox2").innerHTML = t;
-		 var checkboxContainer=document.getElementById("checkboxDiv2");
-			 for (i = 0; i < opt.length; i++) { 
-    				var input = document.createElement("input");
-    				var label = document.createElement("label");
-    				label.innerHTML=opt[i];
-    				label.setAttribute("for", "color_1"+i);
-    				input.type="checkbox";
-    				input.name="color1";
-    				input.id="color1_"+i;;    
-    				checkboxContainer.appendChild(input);
-    				checkboxContainer.appendChild(label);
-    				checkboxContainer.appendChild(document.createElement("br"));
+		var checkboxContainer=document.getElementById("checkboxDiv2");
+		document.getElementsById("tituloCheckbox2").innerHTML= t;
+			for(i = 0; i < opt.length; i++) { 
+   				 var input = document.createElement("input");
+   				 var label = document.createElement("label");
+   		 			label.innerHTML=opt[i];
+   					label.setAttribute("for", "color_"+i);
+   					input.type="checkbox";
+    					input.name="color";
+    					input.id="color_"+i;;    
+    					checkboxContainer.appendChild(input);
+    					checkboxContainer.appendChild(label);
+    					checkboxContainer.appendChild(document.createElement("br"));
  }  
 }
