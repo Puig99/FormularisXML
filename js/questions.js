@@ -45,9 +45,9 @@ window.onload=function(){
 		var opcionesSelect1= [];
 		var nopt=xmlDoc.getElementById("profe003").getElementsByTagName('option').length;
 			for (i = 0; i < nopt; i++){
-				opcionesSelect1[i] = xmlDoc.getElementsById('profe003').getElementsByTagName('option')[i].innerHTML;
+				opcionesSelect1[i] = xmlDoc.getElementById('profe003').getElementsByTagName('option')[i].innerHTML;
 			}
-			ponerDatosSelectHtml1(tituloSelect1,opcionesSelect);
+			ponerDatosSelectHtml1(tituloSelect1,opcionesSelect1);
 			respuestaSelect1=parseInt(xmlDoc.getElementsByTagName("answer")[2].innerHTML);
 			
 			
@@ -55,9 +55,9 @@ window.onload=function(){
 		var opcionesSelect2= [];
 		var nopt=xmlDoc.getElementById("profe004").getElementsByTagName('option').length;
 			for (i = 0; i < nopt; i++){
-				opcionesSelect2[i] = xmlDoc.getElementsById('profe004').getElementsByTagName('option')[i].innerHTML;
+				opcionesSelect2[i] = xmlDoc.getElementById('profe004').getElementsByTagName('option')[i].innerHTML;
 			}
-			ponerDatosSelectHtml2(tituloSelect2,opcionesSelect);
+			ponerDatosSelectHtml2(tituloSelect2,opcionesSelect2);
 			respuestaSelect2=parseInt(xmlDoc.getElementsByTagName("answer")[3].innerHTML);
 		
 		//Select multiple
