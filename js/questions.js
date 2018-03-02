@@ -105,7 +105,7 @@ window.onload=function(){
 		var opcionesCheckbox2 = [];
 		var nopt =xmlDoc.getElementById("profe008").getElementsByTagName('option').length;
 			for (i=0; i< nopt; i++){
-				opcionesCheckbox2[i]=xmlDoc.getElementById("profe008").getElementsByTagName('option')[i].innerHTML;
+				opcionesCheckbox2[i]=parseInt(xmlDoc.getElementById("profe008").getElementsByTagName('option')[i].innerHTML);
 			}
 			ponerDatosCheckboxHtml2(tituloCheckbox2,opcionesCheckbox2);
 			var nres=xmlDoc.getElementById("profe008").getElementsByTagName('answer').length;
