@@ -33,11 +33,11 @@ window.onload=function(){
 		//Text
 		var tituloInput1=xmlDoc.getElementsByTagName("title")[0].innerHTML;
 		ponerDatosInputHtml1(tituloInput1);
-		respuestaText1=parseText(xmlDoc.getElementsByTagName("answer")[0].innerHTML);
+		respuestaText1=xmlDoc.getElementById("profe001").getElementsByTagName("answer").innerHTML.toUpperCase();
 		
 		var tituloInput2=xmlDoc.getElementsByTagName("title")[1].innerHTML;
 		ponerDatosInputHtml2(tituloInput2);
-		respuestaText2=parseText(xmlDoc.getElementsByTagName("answer")[1].innerHTML);
+		respuestaText2=xmlDoc.getElementById("profe002").getElementsByTagName("answer").innerHTML.toUpperCase();
 	
 		//Select
 		var tituloSelect1=xmlDoc.getElementsByTagName("title")[2].innerHTML;
