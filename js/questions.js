@@ -177,7 +177,7 @@ window.onload=function(){
 	function ponerDatosSMultipleHtml1(t,opt){
 		document.getElementById("tituloSMultiple1").innerHTML=t;
 		var select = document.getElementsByTag("select")[2];
-		for (i=0; i < opt.lenght; i++){
+		for (i=0; i < opt.length; i++){
 			var option = document.createElement("option");
 			option.text= opt[i];
 			option.value= i+1;
@@ -189,7 +189,7 @@ window.onload=function(){
 	function ponerDatosSMultipleHtml2(t,opt){
 		document.getElementById("tituloSMultiple2").innerHTML=t;
 		var select = document.getElementsByTag("select")[3];
-		for (i=0; i < opt.lenght; i++){
+		for (i=0; i < opt.length; i++){
 			var option = document.createElement("option");
 			option.text= opt[i];
 			option.value=i+1;
@@ -201,7 +201,7 @@ window.onload=function(){
 	function ponerDatosCheckboxHtml1(t,opt){
 		var checkboxContainer=document.getElementById('checkboxDiv1');
 		document.getElementById('tituloCheckbox1').innerHTML=t;
-			for (i=0;i < opt.lenght; i++){
+			for (i=0;i < opt.length; i++){
 				var input= document.createElement("input");
 				var label= document.createElement("label");
 				label.innerHTML=opt[i];
@@ -219,7 +219,7 @@ window.onload=function(){
 	function ponerDatosCheckboxHtml2(t,opt){
 		var checkboxContainer=document.getElementById('checkboxDiv2');
 		document.getElementById('tituloCheckbox2').innerHTML=t;
-			for (i=0;i < opt.lenght; i++){
+			for (i=0;i < opt.length; i++){
 				var input= document.createElement("input");
 				var label= document.createElement("label");
 				label.innerHTML=opt[i];
