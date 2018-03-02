@@ -222,10 +222,10 @@ window.onload=function(){
     				var input = document.createElement("input");
     				var label = document.createElement("label");
     				label.innerHTML=opt[i];
-    				label.setAttribute("for", "color_"+i);
+    				label.setAttribute("for", "color_1"+i);
     				input.type="checkbox";
-    				input.name="color";
-    				input.id="color_"+i;;    
+    				input.name="color1";
+    				input.id="color1_"+i;;    
     				checkboxContainer.appendChild(input);
     				checkboxContainer.appendChild(label);
     				checkboxContainer.appendChild(document.createElement("br"));
