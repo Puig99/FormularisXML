@@ -1,7 +1,8 @@
 var formElement =null;
 var respuestaSelect = null;
 var respuestaSMultiple = [];
-var respuestaText = null;
+var respuestaText1 = null;
+var respuestaText2 = null;
 var respuestaRadio =[];
 var respuestasCheckbox = [];
 var nota = 0;
