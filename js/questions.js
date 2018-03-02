@@ -73,7 +73,7 @@ window.onload=function(){
 		var tituloSMultiple1=xmlDoc.getElementsByTagName("title")[4].innerHTML;
 		var opcionesSMultiple1=[];
 		var nopt=xmlDoc.getElementById("profe005").getElementsByTagName('option').length;
-			for (i=0; i<noptm; i++){
+			for (i=0; i<nopt; i++){
 				opcionesSMultiple1[i]=xmlDoc.getElementsByTagName('option')[i].innerHTML;
 			}
 		ponerDatosSMultipleHtml1(tituloSMultiple1,opcionesSMultiple);
@@ -82,7 +82,7 @@ window.onload=function(){
 		var tituloSMultiple2=xmlDoc.getElementsByTagName("title")[5].innerHTML;
 		var opcionesSMultiple2=[];
 		var nopt=xmlDoc.getElementById("profe006").getElementsByTagName('option').length;
-			for (i=0; i<noptm; i++){
+			for (i=0; i<nopt; i++){
 				opcionesSMultiple2[i]=xmlDoc.getElementById("profe006").getElementsByTagName('option')[i].innerHTML;
 			}
 		ponerDatosSMultipleHtml2(tituloSMultiple2,opcionesSMultiple);
