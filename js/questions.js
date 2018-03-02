@@ -70,8 +70,7 @@ window.onload=function(){
 			}
 		ponerDatosSMultipleHtml1(tituloSMultiple1,opcionesSMultiple);
 		respuestaSMultiple1=parseInt(xmlDoc.getElementsByTagName("answer")[4].innerHTML);
-		*/
-				
+			
 	var tituloSMultiple2=xmlDoc.getElementsByTagName("title")[5].innerHTML;
 		var opcionesSMultiple2=[];
 		var noptm=xmlDoc.getElementbyId("profe006").getElementsByTagName('option').length;
@@ -80,6 +79,7 @@ window.onload=function(){
 			}
 		ponerDatosSMultipleHtml2(tituloSMultiple2,opcionesSMultiple);
 		respuestaSMultiple2=parseInt(xmlDoc.getElementsByTagName("answer")[5].innerHTML);
+		*/
 		
 		//checkbox
 		var tituloCheckbox1=xmlDoc.getElementsByTagName("title")[6].innerHTML;
