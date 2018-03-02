@@ -199,8 +199,8 @@ window.onload=function(){
 	}
 	
 	function ponerDatosCheckboxHtml1(t,opt){
-		 document.getElementById('tituloCheckbox1').innerHTML = t;
- 		var checkboxContainer=document.getElementById('checkboxDiv1');
+		 document.getElementById("tituloCheckbox1").innerHTML = t;
+ 		var checkboxContainer=document.getElementById("checkboxDiv1");
  			for (i = 0; i < opt.length; i++) { 
    				 var input = document.createElement("input");
    				 var label = document.createElement("label");
@@ -216,8 +216,8 @@ window.onload=function(){
 }
 	
 	function ponerDatosCheckboxHtml2(t,opt){
-		 document.getElementById('tituloCheckbox2') = t;
-		 var checkboxContainer=document.getElementById('checkboxDiv2');
+		 document.getElementById("tituloCheckbox2").innerHTML = t;
+		 var checkboxContainer=document.getElementById("checkboxDiv2");
 			 for (i = 0; i < opt.length; i++) { 
     				var input = document.createElement("input");
     				var label = document.createElement("label");
