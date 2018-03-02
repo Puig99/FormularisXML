@@ -199,39 +199,35 @@ window.onload=function(){
 	}
 	
 	function ponerDatosCheckboxHtml1(t,opt){
-		document.getElementById('tituloCheckbox1').innerHTML=t;
-		var checkboxContainer=document.getElementById('checkboxDiv1');
-			for (i=0;i < opt.length; i++){
-				var input= document.createElement("input");
-				var label= document.createElement("label");
-				label.innerHTML=opt[i];
-				label.setAttribute("for", "color_"+i);
-				input.type="checkbox";
-				input.name="color";
-				input.id="color_"+i;;
-				checkboxContainer.appendChild(input);
-				checkboxContainer.appendChild(label);
-				checkboxContainer.appendChild(document.createElement("br"));
-				
-			}
-	}
+ 		var checkboxContainer=document.getElementById('checkboxDiv1');
+ 		document.getElementById('tituloCheckbox1').innerHTML = t;
+ 			for (i = 0; i < opt.length; i++) { 
+   				 var input = document.createElement("input");
+   				 var label = document.createElement("label");
+   		 			label.innerHTML=opt[i];
+   					label.setAttribute("for", "color_"+i);
+   					input.type="checkbox";
+    					input.name="color";
+    					input.id="color_"+i;;    
+    					checkboxContainer.appendChild(input);
+    					checkboxContainer.appendChild(label);
+    					checkboxContainer.appendChild(document.createElement("br"));
+ }  
+}
 	
-	function ponerDatosCheckboxHtml2(t,opt){
-		document.getElementById('tituloCheckbox2').innerHTML=t;
-		var checkboxContainer=document.getElementById('checkboxDiv2');
-			for (i=0;i < opt.length; i++){
-				var input= document.createElement("input");
-				var label= document.createElement("label");
-				label.innerHTML=opt[i];
-				label.setAttribute("for", "color_"+i);
-				input.type="checkbox";
-				input.name="color";
-				input.id="color_"+i;;
-				checkboxContainer.appendChild(input);
-				checkboxContainer.appendChild(label);
-				checkboxContainer.appendChild(document.createElement("br"));
-				
-			}
-	}
-	
-	
+	function ponerDatosCheckboxHtml(t,opt){
+		 var checkboxContainer=document.getElementById('checkboxDiv2');
+		 document.getElementById('tituloCheckbox2').innerHTML = t;
+			 for (i = 0; i < opt.length; i++) { 
+    				var input = document.createElement("input");
+    				var label = document.createElement("label");
+    				label.innerHTML=opt[i];
+    				label.setAttribute("for", "color_"+i);
+    				input.type="checkbox";
+    				input.name="color";
+    				input.id="color_"+i;;    
+    				checkboxContainer.appendChild(input);
+    				checkboxContainer.appendChild(label);
+    				checkboxContainer.appendChild(document.createElement("br"));
+ }  
+}
