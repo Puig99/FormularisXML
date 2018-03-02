@@ -164,7 +164,7 @@ window.onload=function(){
 	function ponerDatosSelectHtml2(t,opt){
 		document.getElementById("tituloSelect2").innerHTML=t;
 		var select = document.getElementsByTagName("select")[1];
-		for (i=0; i< opt.lenght; i++){
+		for (i=0; i< opt.length; i++){
 			var option = document.createElement("option");
 			option.text= opt[i];
 			option.value= i+1;
