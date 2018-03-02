@@ -1,9 +1,14 @@
-﻿var formElement =null;
-var respuestaSelect = null;
-var respuestaSMultiple = [];
-var respuestaText= null;
-var respuestaRadio =[];
-var respuestasCheckbox = [];
+var formElement = null;
+var respuestaSelect1 = null;
+var respuestaSelect2 = null;
+var respuestaSMultiple1 = [];
+var respuestaSMultiple2 = [];
+var respuestaText1= null;
+var respuestaText2 = null;
+var respuestaRadio1 = [];
+var respuestaRadio2 = [];
+var respuestasCheckbox1 = [];
+var respuestasCheckbox2 = [];
 var nota = 0;
 
 window.onload=function(){
@@ -38,7 +43,7 @@ window.onload=function(){
 		
 		var tituloInput2=xmlDoc.getElementsByTagName("title")[1].innerHTML;
 		ponerDatosInputHtml2(tituloInput2);
-		respuestaText=xmlDoc.getElementById("profe002").getElementsByTagName("answer")[1].innerHTML;
+		respuestaText2 = xmlDoc.getElementById("profe002").getElementsByTagName("answer")[1].innerHTML;
 	
 		
 	
@@ -47,7 +52,7 @@ window.onload=function(){
 		var opcionesSelect1= [];
 		var nopt=xmlDoc.getElementById("profe003").getElementsByTagName('option').length;
 			for (i = 0; i < nopt; i++){
-				opcionesSelect1[i] = xmlDoc.getElementById('profe003').getElementsByTagName('option')[i].innerHTML;
+				opcionesSelect1[i] = xmlDoc.getElementById("profe003").getElementsByTagName('option')[i].innerHTML;
 			}
 			ponerDatosSelectHtml1(tituloSelect1,opcionesSelect1);
 			respuestaSelect1=parseInt(xmlDoc.getElementsByTagName("answer")[2].innerHTML);
@@ -228,6 +233,6 @@ window.onload=function(){
 				
 			}
 	}
-	
+}
 	
 	
