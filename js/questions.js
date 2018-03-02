@@ -76,7 +76,7 @@ window.onload=function(){
 			for (i=0; i<nopt; i++){
 				opcionesSMultiple1[i]=xmlDoc.getElementsByTagName('option')[i].innerHTML;
 			}
-		ponerDatosSMultipleHtml1(tituloSMultiple1,opcionesSMultiple);
+		ponerDatosSMultipleHtml1(tituloSMultiple1,opcionesSMultiple1);
 		respuestaSMultiple1=parseInt(xmlDoc.getElementsByTagName("answer")[4].innerHTML);
 			
 		var tituloSMultiple2=xmlDoc.getElementsByTagName("title")[5].innerHTML;
@@ -85,7 +85,7 @@ window.onload=function(){
 			for (i=0; i<nopt; i++){
 				opcionesSMultiple2[i]=xmlDoc.getElementById("profe006").getElementsByTagName('option')[i].innerHTML;
 			}
-		ponerDatosSMultipleHtml2(tituloSMultiple2,opcionesSMultiple);
+		ponerDatosSMultipleHtml2(tituloSMultiple2,opcionesSMultiple2);
 		respuestaSMultiple2=parseInt(xmlDoc.getElementsByTagName("answer")[5].innerHTML);
 		
 		//checkbox
@@ -121,7 +121,7 @@ window.onload=function(){
 			for (i = 0; i < nopt; i++){
 				opcionesRadio1[i]= xmlDoc.getElementById("profe009").getElementsByTagName("option")[i].innerHTML;
 			}
-			ponerDatosRadioHtml1(tituloRadio1,opcionesRadio);
+			ponerDatosRadioHtml1(tituloRadio1,opcionesRadio1);
 			var nres=xmlDoc.getElementById("profe009").getElementsByTagName("answer").length;
 				for (i=0; i< nres; i++){
 						respuestasRadio1[i]=xmlDoc.getElementById("profe009").getElementsByTagName("answer")[i].innerHTML;
@@ -133,7 +133,7 @@ window.onload=function(){
 			for (i = 0; i < nopt; i++){
 				opcionesRadio2[i]= xmlDoc.getElementById("profe010").getElementsByTagName("option")[i].innerHTML;
 			}
-			ponerDatosRadioHtml2(tituloRadio1,opcionesRadio);
+			ponerDatosRadioHtml2(tituloRadio2,opcionesRadio2);
 			var nres=xmlDoc.getElementById("profe010").getElementsByTagName("answer").length;
 				for (i=0; i< nres; i++){
 						respuestasRadio2[i]=xmlDoc.getElementById("profe010").getElementsByTagName("answer")[i].innerHTML;
