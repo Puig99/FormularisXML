@@ -137,7 +137,7 @@ window.onload=function(){
 	}
 	
 	function ponerDatosInputHtml2(t){
-		document.getElementById("tituloInput2")=t;
+		document.getElementById("tituloInput2").innerHTML=t;
 	}
 	
 	function ponerDatosSelectHtml1(t,opt){
