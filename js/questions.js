@@ -156,7 +156,7 @@ window.onload=function(){
 		for (i=0; i< opt.lenght; i++){
 			var option = document.createElement("option");
 			option.text= opt[i];
-			option.value= i+1;
+			option.value= i;
 			select.options.add(option);
 		}
 	}
