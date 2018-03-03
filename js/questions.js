@@ -200,7 +200,7 @@ window.onload=function(){
 				var label= document.createElement("label");
 				label.innerHTML=opt[i];
 				label.setAttribute("for", "color3_"+i);
-   			 input.type="checkbox";
+   			 input.type="radio";
    			 input.name="color3";
    			 input.id="color3_"+i;;    
    			 radioContainer1.appendChild(input);
