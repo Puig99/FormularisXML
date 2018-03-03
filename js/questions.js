@@ -247,14 +247,14 @@ window.onload=function(){
    			 input.type="checkbox";
    			 input.name="color3";
    			 input.id="color3_"+i;;    
-   			 checkboxContainer2.appendChild(input);
-   			 checkboxContainer2.appendChild(label);
-   			 checkboxContainer2.appendChild(document.createElement("br"));
+   			 radioContainer1.appendChild(input);
+   			 radioContainer1.appendChild(label);
+   			 radioContainer1.appendChild(document.createElement("br"));
  }  
 }
 
 	function ponerDatosRadioHtml2(t,opt){
-		var radioContainer1=document.getElementById('radioDiv2');
+		var radioContainer2=document.getElementById('radioDiv2');
 			document.getElementById("tituloRadio2").innerHTML=t;
 			for (i=0; i < opt.length; i++){
 				var input= document.createElement("input");
@@ -264,9 +264,9 @@ window.onload=function(){
    			 input.type="checkbox";
    			 input.name="color4";
    			 input.id="color4_"+i;;    
-   			 checkboxContainer2.appendChild(input);
-   			 checkboxContainer2.appendChild(label);
-   			 checkboxContainer2.appendChild(document.createElement("br"));
+   			 radioContainer2.appendChild(input);
+   			 radioContainer2.appendChild(label);
+   			 radioContainer2.appendChild(document.createElement("br"));
  }  
 }
 				
