@@ -100,7 +100,7 @@ window.onload=function(){
 				for (i=0; i< nres; i++){
 					respuestasCheckbox1[i]=parseInt(xmlDoc.getElementById("profe007").getElementsByTagName("answer")[i].innerHTML);
 				}
-				
+		/*		
 		var tituloCheckbox2=xmlDoc.getElementsByTagName("title")[7].innerHTML;
 		var opcionesCheckbox2 = [];
 		var nopt =xmlDoc.getElementById("profe008").getElementsByTagName('option').length;
@@ -113,6 +113,7 @@ window.onload=function(){
 					respuestasCheckbox2[i]=parseInt(xmlDoc.getElementById("profe008").getElementsByTagName("answer")[i].innerHTML);
 				}
 	
+				*/
 		
 		//radio
 		var tituloRadio1=xmlDoc.getElementsByTagName("title")[8].innerHTML;
