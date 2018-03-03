@@ -125,7 +125,7 @@ window.onload=function(){
 			ponerDatosRadioHtml1(tituloRadio1,opcionesRadio1);
 			var nres=xmlDoc.getElementById("profe009").getElementsByTagName("answer").length;
 				for (i=0; i< nres; i++){
-						respuestasRadio1[i]=xmlDoc.getElementById("profe009").getElementsByTagName("answer")[i].innerHTML;
+						respuestaRadio1[i]=xmlDoc.getElementById("profe009").getElementsByTagName("answer")[i].innerHTML;
 				}
 				
 		var tituloRadio2=xmlDoc.getElementsByTagName("title")[9].innerHTML;
@@ -137,7 +137,7 @@ window.onload=function(){
 			ponerDatosRadioHtml2(tituloRadio2,opcionesRadio2);
 			var nres=xmlDoc.getElementById("profe010").getElementsByTagName("answer").length;
 				for (i=0; i< nres; i++){
-						respuestasRadio2[i]=xmlDoc.getElementById("profe010").getElementsByTagName("answer")[i].innerHTML;
+						respuestaRadio2[i]=xmlDoc.getElementById("profe010").getElementsByTagName("answer")[i].innerHTML;
 				
 				}
 	}
