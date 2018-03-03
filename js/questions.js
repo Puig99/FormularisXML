@@ -100,20 +100,7 @@ window.onload=function(){
 				for (i=0; i< nres; i++){
 					respuestasCheckbox1[i]=parseInt(xmlDoc.getElementById("profe007").getElementsByTagName("answer")[i].innerHTML);
 				}
-		/*		
-		var tituloCheckbox2=xmlDoc.getElementsByTagName("title")[7].innerHTML;
-		var opcionesCheckbox2 = [];
-		var nopt =xmlDoc.getElementById("profe008").getElementsByTagName('option').length;
-			for (i=0; i< nopt; i++){
-				opcionesCheckbox2[i]=xmlDoc.getElementById("profe008").getElementsByTagName('option')[i].innerHTML;
-			}
-			ponerDatosCheckboxHtml2(tituloCheckbox2,opcionesCheckbox2);
-			var nres=xmlDoc.getElementById("profe008").getElementsByTagName('answer').length;
-				for (i=0; i< nres; i++){
-					respuestasCheckbox2[i]=parseInt(xmlDoc.getElementById("profe008").getElementsByTagName("answer")[i].innerHTML);
-				}
-	
-				*/
+		
 		
 		//radio
 		var tituloRadio1=xmlDoc.getElementsByTagName("title")[8].innerHTML;
@@ -128,18 +115,6 @@ window.onload=function(){
 						respuestaRadio1[i]=xmlDoc.getElementById("profe009").getElementsByTagName("answer")[i].innerHTML;
 				}
 				
-		var tituloRadio2=xmlDoc.getElementsByTagName("title")[9].innerHTML;
-		var opcionesRadio2=[];
-		var nopt=xmlDoc.getElementById("profe010").getElementsByTagName('option').length;
-			for (i = 0; i < nopt; i++){
-				opcionesRadio2[i]= xmlDoc.getElementById("profe010").getElementsByTagName("option")[i].innerHTML;
-			}
-			ponerDatosRadioHtml2(tituloRadio2,opcionesRadio2);
-			var nres=xmlDoc.getElementById("profe010").getElementsByTagName("answer").length;
-				for (i=0; i< nres; i++){
-						respuestaRadio2[i]=xmlDoc.getElementById("profe010").getElementsByTagName("answer")[i].innerHTML;
-				
-				}
 	
 	
 	//Poner los datos en el HTML
@@ -216,25 +191,6 @@ window.onload=function(){
  }  
 }
 
-/*
- 	function ponerDatosCheckboxHtml2(t,opt){
- 		var checkboxContainer2=document.getElementById('checkboxDiv2');
-			document.getElementById("tituloCheckbox2").innerHTML = t;
- 			for (i = 0; i < opt.length; i++) { 
-   			 var input = document.createElement("input");
-   			 var label = document.createElement("label");
-   			 label.innerHTML=opt[i];
-  			  label.setAttribute("for", "color2_"+i);
-   			 input.type="checkbox";
-   			 input.name="color2";
-   			 input.id="color2_"+i;;    
-   			 checkboxContainer2.appendChild(input);
-   			 checkboxContainer2.appendChild(label);
-   			 checkboxContainer2.appendChild(document.createElement("br"));
- }  
-}
-*/
-
 
 	function ponerDatosRadioHtml1(t,opt){
 		var radioContainer1=document.getElementById('radioDiv1');
@@ -250,23 +206,6 @@ window.onload=function(){
    			 radioContainer1.appendChild(input);
    			 radioContainer1.appendChild(label);
    			 radioContainer1.appendChild(document.createElement("br"));
- }  
-}
-
-	function ponerDatosRadioHtml2(t,opt){
-		var radioContainer2=document.getElementById('radioDiv2');
-			document.getElementById("tituloRadio2").innerHTML=t;
-			for (i=0; i < opt.length; i++){
-				var input= document.createElement("input");
-				var label= document.createElement("label");
-				label.innerHTML=opt[i];
-				label.setAttribute("for", "color4_"+i);
-   			 input.type="checkbox";
-   			 input.name="color4";
-   			 input.id="color4_"+i;;    
-   			 radioContainer2.appendChild(input);
-   			 radioContainer2.appendChild(label);
-   			 radioContainer2.appendChild(document.createElement("br"));
  }  
 }
 }
