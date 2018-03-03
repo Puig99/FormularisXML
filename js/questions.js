@@ -215,6 +215,7 @@ window.onload=function(){
  }  
 }
 
+/*
  	function ponerDatosCheckboxHtml2(t,opt){
  		var checkboxContainer2=document.getElementById('checkboxDiv2');
 			document.getElementById("tituloCheckbox2").innerHTML = t;
@@ -231,6 +232,7 @@ window.onload=function(){
    			 checkboxContainer2.appendChild(document.createElement("br"));
  }  
 }
+*/
 
 
 	function ponerDatosRadioHtml1(t,opt){
