@@ -231,3 +231,39 @@ window.onload=function(){
    			 checkboxContainer2.appendChild(document.createElement("br"));
  }  
 }
+
+
+	function ponerDatosRadioHtml1(t,opt){
+		var radioContainer1=document.getElementById('radioDiv1');
+			document.getElementById("tituloRadio1").innerHTML=t;
+			for (i=0; i < opt.length; i++){
+				var input= document.createElement("input");
+				var label= document.createElement("label");
+				label.innerHTML=opt[i];
+				label.setAttribute("for", "color3_"+i);
+   			 input.type="checkbox";
+   			 input.name="color3";
+   			 input.id="color3_"+i;;    
+   			 checkboxContainer2.appendChild(input);
+   			 checkboxContainer2.appendChild(label);
+   			 checkboxContainer2.appendChild(document.createElement("br"));
+ }  
+}
+
+	function ponerDatosRadioHtml2(t,opt){
+		var radioContainer1=document.getElementById('radioDiv2');
+			document.getElementById("tituloRadio2").innerHTML=t;
+			for (i=0; i < opt.length; i++){
+				var input= document.createElement("input");
+				var label= document.createElement("label");
+				label.innerHTML=opt[i];
+				label.setAttribute("for", "color4_"+i);
+   			 input.type="checkbox";
+   			 input.name="color4";
+   			 input.id="color4_"+i;;    
+   			 checkboxContainer2.appendChild(input);
+   			 checkboxContainer2.appendChild(label);
+   			 checkboxContainer2.appendChild(document.createElement("br"));
+ }  
+}
+				
