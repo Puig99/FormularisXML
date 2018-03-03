@@ -140,7 +140,7 @@ window.onload=function(){
 						respuestaRadio2[i]=xmlDoc.getElementById("profe010").getElementsByTagName("answer")[i].innerHTML;
 				
 				}
-	}
+	
 	
 	//Poner los datos en el HTML
 	function ponerDatosInputHtml1(t){
@@ -268,5 +268,6 @@ window.onload=function(){
    			 radioContainer2.appendChild(label);
    			 radioContainer2.appendChild(document.createElement("br"));
  }  
+}
 }
 				
