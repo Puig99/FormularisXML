@@ -13,10 +13,25 @@ var nota = 0;
 
 window.onload=function(){
 	
-	/*
 	//Corregir
+	 formElement=document.getElementById('myform');
+ formElement.onsubmit=function(){
+   inicializar();
+   if (comprobar()){
+    mostrar=document.getElementById("resultadosDiv").style.display = "inline-block";
+    corregirText();
+    corregirText2();
+    corregirMultiple1();
+    corregirMultiple2();
+    corregirCheckbox1();
+    corregirRadio1();
+    corregirSelect1();
+    corregirSelect2();
+    presentarNota();
+   }
+   return false;
+ }
 
-		*/
 
 	//Leer XML
 	
@@ -209,4 +224,8 @@ window.onload=function(){
  }  
 }
 }
+
+//implementacion de la correccion 
+
+
 				
