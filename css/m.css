@@ -10,6 +10,7 @@ body{
 	padding-left:2%;
 	padding-right:2%;
     background-image: url("../img/rift.jpg");
+    background-size: cover;
 }
 
 body,input,select,label {
