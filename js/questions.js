@@ -228,11 +228,11 @@ window.onload=function(){
 //implementacion de la correccion 
 function corregirSelect1(){
   var sel = formElement.elements[2];  
-  if (sel.selectedIndex-1==respuestaSelect1)
+  if (sel.selectedIndex-1==respuestaSelect1){
    darRespuestaHtml("Pregunta 3: Correcte!");
    nota +=1;
-  }
-  else darRespuestaHtml("Pregunta 3: Incorrecte");
+  }	
+  else{ darRespuestaHtml("Pregunta 3: Incorrecte");
 }
 function corregirSelect2(){
   var sel = formElement.elements[3];  
