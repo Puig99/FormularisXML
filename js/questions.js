@@ -5,6 +5,7 @@ var respuestaSMultiple1 = [];
 var respuestaSMultiple2 = [];
 var respuestaText1= null;
 var respuestaText2 = null;
+var respuestaText3= null;
 var respuestaRadio1 = [];
 var respuestaRadio2 = [];
 var respuestasCheckbox1 = [];
@@ -38,7 +39,7 @@ window.onload=function(){
 		//Text
 		var tituloInput1=xmlDoc.getElementsByTagName("title")[0].innerHTML;
 		ponerDatosInputHtml1(tituloInput1);
-		respuestaText=xmlDoc.getElementById("profe001").getElementsByTagName("answer")[0];
+		respuestaText1=xmlDoc.getElementById("profe001").getElementsByTagName("answer")[0];
 		
 		
 		var tituloInput2=xmlDoc.getElementsByTagName("title")[1].innerHTML;
@@ -47,7 +48,7 @@ window.onload=function(){
 		
 		var tituloInput3=xmlDoc.getElementsByTagName("title")[8].innerHTML;
 		ponerDatosInputHtml1(tituloInput1);
-		respuestaText=xmlDoc.getElementById("profe010").getElementsByTagName("answer")[8];
+		respuestaText3=xmlDoc.getElementById("profe010").getElementsByTagName("answer")[8];
 		
 	
 		
@@ -118,7 +119,7 @@ window.onload=function(){
 		
 		
 		//radio
-		var tituloRadio1=xmlDoc.getElementsByTagName("title")[8].innerHTML;
+		var tituloRadio1=xmlDoc.getElementsByTagName("title")[7].innerHTML;
 		var opcionesRadio1=[];
 		var nopt=xmlDoc.getElementById("profe009").getElementsByTagName('option').length;
 			for (i = 0; i < nopt; i++){
