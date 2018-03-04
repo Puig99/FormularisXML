@@ -74,7 +74,7 @@ window.onload=function(){
 		var opcionesSMultiple1=[];
 		var nopt=xmlDoc.getElementById("profe005").getElementsByTagName('option').length;
 			for (i=0; i<nopt; i++){
-				opcionesSMultiple1[i]=xmlDoc.getElementsByTagName('option')[i].innerHTML;
+				opcionesSMultiple1[i]=xmlDoc.getElementById("profe005").getElementsByTagName('option')[i].innerHTML;
 			}
 		ponerDatosSMultipleHtml1(tituloSMultiple1,opcionesSMultiple1);
 		respuestaSMultiple1=parseInt(xmlDoc.getElementsByTagName("answer")[4].innerHTML);
