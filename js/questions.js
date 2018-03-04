@@ -44,6 +44,11 @@ window.onload=function(){
 		var tituloInput2=xmlDoc.getElementsByTagName("title")[1].innerHTML;
 		ponerDatosInputHtml2(tituloInput2);
 		respuestaText2 = xmlDoc.getElementById("profe002").getElementsByTagName("answer")[1];
+		
+		var tituloInput3=xmlDoc.getElementsByTagName("title")[8].innerHTML;
+		ponerDatosInputHtml1(tituloInput1);
+		respuestaText=xmlDoc.getElementById("profe010").getElementsByTagName("answer")[8];
+		
 	
 		
 	
@@ -66,6 +71,16 @@ window.onload=function(){
 			}
 			ponerDatosSelectHtml2(tituloSelect2,opcionesSelect2);
 			respuestaSelect2=parseInt(xmlDoc.getElementsByTagName("answer")[3].innerHTML);
+		
+		var tituloSelect3=xmlDoc.getElementsByTagName("title")[9].innerHTML;
+		var opcionesSelect3= [];
+		var nopt=xmlDoc.getElementById("profe011").getElementsByTagName('option').length;
+			for (i = 0; i < nopt; i++){
+				opcionesSelect3[i] = xmlDoc.getElementById('profe011').getElementsByTagName('option')[i].innerHTML;
+			}
+			ponerDatosSelectHtml3(tituloSelect3,opcionesSelect3);
+			respuestaSelect3=parseInt(xmlDoc.getElementsByTagName("answer")[9].innerHTML);
+		
 		
 		//Select multiple
 	
@@ -125,6 +140,10 @@ window.onload=function(){
 	function ponerDatosInputHtml2(t){
 		document.getElementById("tituloInput2").innerHTML=t;
 	}
+		
+		function ponerDatosInputHtml3(t){
+		document.getElementById("tituloInput3").innerHTML=t;
+	}
 	
 	function ponerDatosSelectHtml1(t,opt){
   		document.getElementById("tituloSelect1").innerHTML=t;
@@ -148,7 +167,18 @@ window.onload=function(){
 		}
 	}
 	
-}
+		function ponerDatosSelectHtml3(t,opt){
+		document.getElementById("tituloSelect3").innerHTML=t;
+		var select = document.getElementsByTagName("select")[2];
+		for (i=0; i< opt.length; i++){
+			var option = document.createElement("option");
+			option.text= opt[i];
+			option.value= i+1;
+			select.options.add(option);
+		}
+	}
+
+		
 
 	function ponerDatosSMultipleHtml1(t,opt){
 		document.getElementById("tituloSMultiple1").innerHTML=t;
