@@ -345,7 +345,7 @@ function comprobar(){
    }
  
 
-    else if (f.elements[2].selectedIndex==-1) {
+    if (f.elements[2].selectedIndex==-1) {
     f.elements[2].focus();
     alert("Selecciona una opció");
     return false;
