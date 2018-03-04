@@ -51,7 +51,7 @@ h3{
     padding: 0;
     width: 100%;
     overflow: hidden;
-    background-color: #CD5360;
+    background-color: #2C4B50;
 }
 
 #headMenu img {
@@ -71,7 +71,7 @@ h3{
 }
 
 .active {
-    background-color: #ab2e3b;
+    background-color: #09BC8A;
 }
 
 /******************************************************************************/
