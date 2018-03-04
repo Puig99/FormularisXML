@@ -36,7 +36,7 @@ window.onload = function(){
 
 
 
- //LEER XML de xml/preguntas.xml
+ //LEER XML 
  var xhttp = new XMLHttpRequest();
  xhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
@@ -44,7 +44,7 @@ window.onload = function(){
    
   }
  };
- xhttp.open("GET", "xml/preguntas.xml", true);
+ xhttp.open("GET", "xml/questions.xml", true);
  xhttp.send();
  
 }
