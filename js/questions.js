@@ -226,6 +226,112 @@ window.onload=function(){
 }
 
 //implementacion de la correccion 
+function corregirSelect1(){
+  var sel = formElement.elements[2];  
+  if (sel.selectedIndex-1==respuestaSelect1)
+   darRespuestaHtml("Pregunta 3: Correcte!");
+   nota +=1;
+  }
+  else darRespuestaHtml("Pregunta 3: Incorrecte");
+}
+function corregirSelect2(){
+  var sel = formElement.elements[3];  
+  if (sel.selectedIndex-1==respuestaSelect2)
+   darRespuestaHtml("Pregunta 4: Correcte!");
+   nota +=1;
+  }
+  else darRespuestaHtml("Pregunta 4: Incorrecte");
+}
+
+function corregirText(){
+  var s1= formElement.elements[0].value; 
+  if (s1==respuestaText1) {
+   darRespuestaHtml("Pregunta 1: Correcte!");
+   nota +=1;
+  }
+  else {
+    darRespuestaHtml("Pregunta 1: Incorrecte");
+  }
+}
+
+function corregirText2(){
+  var s1= formElement.elements[1].value; 
+  if (s1==respuestaText2) {
+   darRespuestaHtml("Pregunta 2: Correcte!");
+   nota +=1;
+  }
+  else {
+    darRespuestaHtml("Pregunta 2: Incorrecte");
+  }
+}
+
+function corregirCheckbox1(){
+  var f=formElement;
+  var escorrecta1 = [];
+  for (i = 0; i < f.color1.length; i++) { 
+   if (f.color1[i].checked) {
+    escorrecta1[i]=false;     
+    for (j = 0; j < respuestasCheckbox1.length; j++) {
+     if (i==respuestasCheckbox1[j]) escorrecta1[i]=true;
+    }
+
+    if (escorrecta1[i]) {
+     nota +=1.0/respuestasCheckbox1.length;  //dividido por el número de respuestas correctas   
+     darRespuestaHtml("Pregunta 7: opció "+i+" Correcte!");     
+    } else {
+     nota -=1.0/respuestasCheckbox1.length;  //dividido por el número de respuestas correctas   
+     darRespuestaHtml("Pregunta 7: opció "+i+" Incorrecte");
+    }   
+   } 
+  }
+}
+
+function corregirRadio1(){
+  var sel = formElement.elements[7];  
+  if (sel.selectedIndex-1==respuestaRadio1)
+   darRespuestaHtml("Pregunta 8: Correcte!");
+   nota +=1;
+  }
+  else darRespuestaHtml("Pregunta 8: Incorrecte");
+}
+
+function corregirMultiple1(){
+  var sel = formElement.elements[4];  
+  if (sel.selectedIndex-1==respuestaSMultiple1)
+   darRespuestaHtml("Pregunta 5: Correcte!");
+   nota +=1;
+  }
+  else darRespuestaHtml("Pregunta 5: Incorrecte");
+}
+
+function corregirMultiple2(){
+  var sel = formElement.elements[5];  
+  if (sel.selectedIndex-1==respuestaSMultiple2)
+   darRespuestaHtml("Pregunta 6: Correcte!");
+   nota +=1;
+  }
+  else darRespuestaHtml("Pregunta 6: Incorrecte");
+}
+
+//Presentar respuestas
+
+function darRespuestaHtml(r){
+ var p = document.createElement("p");
+ var node = document.createTextNode(r);
+ p.appendChild(node);
+ document.getElementById('resultadosDiv').appendChild(p);
+}
+
+function presentarNota(){
+	darRespuestaHtml("Nota: "+nota+" sobre 8");
+}
+
+function inicializar(){
+   document.getElementById('resultadosDiv').innerHTML = "";
+   nota=0.0;
+}
+
+
 //comprobar que se ha respondido
 function comprobar(){
    var f=formElement;
