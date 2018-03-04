@@ -2,7 +2,7 @@
 <!DOCTYPE questions SYSTEM "questions.dtd">
 
 <!--<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="questions.xsd"> -->
-questions>
+<questions>
     <question id="profe001">
 	<type>number</type>
 	<title>Cuantos pink wards pueden llevarse a la vez en el inventario?</title>
