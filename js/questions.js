@@ -47,7 +47,7 @@ window.onload=function(){
 		respuestaText2 = xmlDoc.getElementById("profe002").getElementsByTagName("answer")[1];
 		
 		var tituloInput3=xmlDoc.getElementsByTagName("title")[2].innerHTML;
-		ponerDatosInputHtml1(tituloInput3);
+		ponerDatosInputHtml3(tituloInput3);
 		respuestaText3=xmlDoc.getElementById("profe003").getElementsByTagName("answer")[2];
 		
 	
