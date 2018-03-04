@@ -240,5 +240,4 @@ window.onload=function(){
    			 radioContainer1.appendChild(document.createElement("br"));
  }  
 }
-}
 				
