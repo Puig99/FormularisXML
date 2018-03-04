@@ -177,7 +177,7 @@ window.onload=function(){
 			select.options.add(option);
 		}
 	}
-
+}
 		
 
 	function ponerDatosSMultipleHtml1(t,opt){
@@ -238,5 +238,5 @@ window.onload=function(){
    			 radioContainer1.appendChild(document.createElement("br"));
  }  
 }
-
+}
 				
