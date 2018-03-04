@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE questions SYSTEM "questions.dtd">
+
+<!--<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="questions.xsd"> -->
+<questions>
+<!-- text -->
+ <question id='profe001'>
+  <type>text</type>
+  <title>Que campeón fue el primero en obtener una skin definitiva</title>
+  <answer>ezreal</answer>
+ </question>
+ 
+ <question id='profe002'>
+  <type>text</type>
+  <title>Como se llama el campeón de Marc Merrill?</title>
+  <answer>tryndamere</answer>
+ </question>
+ 
+ <!-- Select simple -->
+ <question id='profe003'>
+  <type>select</type>
+  <title>Que campeón podia empujar al Barón Nashor por todo el mapa?</title>
+  <option>Syndra</option>
+  <option>Alistar</option> 
+  <option>Poppy</option>
+  <answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+ </question>
+ 
+ <question id='profe004'>
+  <type>select</type>
+  <title>Que skins te regalaban con la edición física del juego?</title>
+  <option>Ryze humano y Alistar negro</option>
+  <option>Gragas Operaciones Articas y Alistar negro </option> 
+  <option>Kayle sin casco y Ryze humano </option>
+  <option> Riot no regala nada jaja </option>
+  <answer>0</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opció -->
+ </question>
+ 
+ <!-- Select Multiple -->
+ 
+ <question id='profe005'>
+  <type>multiple</type>
+  <title>Cuales de los siguientes campeones NO pertenecen a "Los guardianes de las Estrellas"?</title>
+  <option>Urgot</option>
+  <option>Jinx</option> 
+  <option>Kiko</option> 
+  <option>Zoe</option>
+  <answer>0</answer>
+  <answer>2</answer>
+  <answer>3</answer>
+ </question>
+ 
+ <question id='profe006'>
+  <type>multiple</type>
+  <title>Que campeones pertenecen a la raza "Vastaya"?</title>
+  <option>Rakan</option>
+  <option>Alistar</option> 
+  <option>Xayah</option> 
+  <option>Soraka</option>
+  <answer>0</answer>
+  <answer>2</answer>
+ </question>
+ 
+ <!-- checkbox -->
+ 
+ <question id='profe007'>
+  <type>checkbox</type>
+  <title>Cuales de los siguientes personajes NO llegó a salir?</title>
+  <option>Aurelion Sol</option>
+  <option>Ao Shin</option> 
+  <option>Yasuo</option> 
+  <option>Urf</option>
+  <answer>1</answer>
+  <answer>3</answer>
+ </question>
+ 
+ <question id='profe008'>
+  <type>checkbox</type>
+  <title>Cual es el maximo de centinelas de visión o "pink wards" que puede llevar un jugador en su inventario?</title>
+  <option>2</option>
+  <option>3</option> 
+  <option>1</option> 
+  <option>¿¡¿¡¿Pink wards?!?!?</option>
+  <answer>1</answer>
+ </question>
+ 
+ <!-- Radio -->
+ 
+ <question id='profe009'>
+  <type>radio</type>
+  <title>Cada cuantos minutos reaparece el dragón despues de matarlo por primera vez?</title>
+  <option>5</option>
+  <option>7</option> 
+  <option>6</option> 
+  <option>4</option>
+  <answer>2</answer>
+ </question>
+ 
+ <question id='profe010'>
+  <type>radio</type>
+  <title>Como se llama la habilidad definitiva de Aatrox?</title>
+  <option>Furia Inmortal</option>
+  <option>Espada del tormento</option> 
+  <option>Masacre</option> 
+  <option>Sorpresa icathiana</option>
+  <answer>2</answer>
+ </question>
+ 
+</questions>
