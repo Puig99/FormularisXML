@@ -86,7 +86,7 @@ window.onload=function(){
 				opcionesSMultiple2[i]=xmlDoc.getElementById("profe006").getElementsByTagName('option')[i].innerHTML;
 			}
 		ponerDatosSMultipleHtml2(tituloSMultiple2,opcionesSMultiple2);
-		respuestaSMultiple2=parseIntparseInt(xmlDoc.getElementById("profe006").getElementsByTagName("answer")[i].innerHTML);;
+		respuestaSMultiple2=parseInt(xmlDoc.getElementById("profe006").getElementsByTagName("answer")[i].innerHTML);
 		
 		//checkbox
 		var tituloCheckbox1=xmlDoc.getElementsByTagName("title")[6].innerHTML;
