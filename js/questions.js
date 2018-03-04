@@ -183,7 +183,6 @@ function corregirNumber1(){
   var s=formElement.elements[16].value;     
   if (s==numeroSecreto1) {
    darRespuestaHtml("Pregunta 8: Correcte!");
-      darRespuestaHtml("");
    nota +=1;
   }
   else {
@@ -199,7 +198,6 @@ function corregirSelect(){
   var sel = formElement.elements[1];  
   if (sel.selectedIndex-1==respuestaSelect) { //-1 porque hemos puesto una opción por defecto en el select que ocupa la posición 0
    darRespuestaHtml("Pregunta 2: Correcte!");
-      darRespuestaHtml();
    nota +=1;
   }
   else darRespuestaHtml("Pregunta 2: N O")
@@ -219,10 +217,10 @@ function corregirCheckbox(){
     //si es correcta sumamos y ponemos mensaje, si no es correcta restamos y ponemos mensaje.
     if (escorrecta[i]) {
      nota +=1.0/respuestasCheckbox.length;  //dividido por el número de respuestas correctas   
-     darRespuestaHtml("Pregunta 3: opció "+i+" Correcte!");
+     darRespuestaHtml("Pregunta 3:Correcte!");
      } else {
      nota -=1.0/respuestasCheckbox.length;  //dividido por el número de respuestas correctas   
-     darRespuestaHtml("Pregunta 3: opció "+i+" Incorrecte");
+     darRespuestaHtml("Pregunta 3:Incorrecte");
     } 
    } 
   } 
@@ -241,10 +239,10 @@ function corregirCheckbox1(){
     //si es correcta sumamos y ponemos mensaje, si no es correcta restamos y ponemos mensaje.
     if (escorrecta1[i]) {
      nota +=1.0/respuestasCheckbox1.length;  //dividido por el número de respuestas correctas   
-     darRespuestaHtml("Pregunta 4: opció "+i+" Correcte!");     
+     darRespuestaHtml("Pregunta 4:Correcte!");     
     } else {
      nota -=1.0/respuestasCheckbox1.length;  //dividido por el número de respuestas correctas   
-     darRespuestaHtml("Pregunta 4: opció "+i+" Incorrecte");
+     darRespuestaHtml("Pregunta 4:Incorrecte");
     }   
    } 
   }
@@ -274,10 +272,10 @@ function corregirCheckbox2(){
     //si es correcta sumamos y ponemos mensaje, si no es correcta restamos y ponemos mensaje.
     if (escorrecta2[i]) {
      nota +=1.0/respuestasCheckbox2.length;  //dividido por el número de respuestas correctas   
-     darRespuestaHtml("Pregunta 6: opció "+i+" Correcte!");     
+     darRespuestaHtml("Pregunta 6: Correcte!");     
     } else {
      nota -=1.0/respuestasCheckbox2.length;  //dividido por el número de respuestas correctas   
-     darRespuestaHtml("Pregunta 6: opció "+i+" Incorrecte");
+     darRespuestaHtml("Pregunta 6:Incorrecte");
     }   
    } 
   }
