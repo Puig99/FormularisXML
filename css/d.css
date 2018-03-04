@@ -135,18 +135,6 @@ form h3 {
     color: white;
 }
 
-#resultadosDiv {
-	background-color:#90CAF9;
-	padding:3%;
-
-}
-
-#resultadosDiv img {
-	width: 25px;
-	vertical-align: middle;
-	margin-left: 10px;
-}
-
 .correcto {
 	color: #27b63a;
 }
