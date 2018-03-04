@@ -16,8 +16,14 @@
   <answer>tryndamere</answer>
  </question>
  
- <!-- Select simple -->
  <question id='profe003'>
+  <type>text</type>
+  <title>Como se llama ese campeon que tiene una espadita y tira tornados mientras grita?</title>
+  <answer>yasuo</answer>
+ </question>
+ 
+ <!-- Select simple -->
+ <question id='profe004'>
   <type>select</type>
   <title>Que campeón podia empujar al Barón Nashor por todo el mapa?</title>
   <option>Syndra</option>
@@ -26,7 +32,7 @@
   <answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
  </question>
  
- <question id='profe004'>
+ <question id='profe005'>
   <type>select</type>
   <title>Que skins te regalaban con la edición física del juego?</title>
   <option>Ryze humano y Alistar negro</option>
@@ -36,9 +42,19 @@
   <answer>0</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opció -->
  </question>
  
+  <question id='profe006'>
+  <type>select</type>
+  <title>Cual de los siguientes campeones grita "DEMACIAAAAAAAAA" como si le fuese la vida en ello cuando utilitza su definitiva?
+  <option>Xayah</option>
+  <option>Lux</option> 
+  <option>Gnar</option>
+  <answer>1</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+  
+ </question>
+ 
  <!-- Select Multiple -->
  
- <question id='profe005'>
+ <question id='profe007'>
   <type>multiple</type>
   <title>Cuales de los siguientes campeones NO pertenecen a "Los guardianes de las Estrellas"?</title>
   <option>Urgot</option>
@@ -50,7 +66,7 @@
   <answer>3</answer>
  </question>
  
- <question id='profe006'>
+ <question id='profe008'>
   <type>multiple</type>
   <title>Que campeones pertenecen a la raza "Vastaya"?</title>
   <option>Rakan</option>
@@ -63,7 +79,7 @@
  
  <!-- checkbox -->
  
- <question id='profe007'>
+ <question id='profe009'>
   <type>checkbox</type>
   <title>Cuales de los siguientes personajes NO llegó a salir?</title>
   <option>Aurelion Sol</option>
@@ -77,7 +93,7 @@
  
  <!-- Radio -->
  
- <question id='profe009'>
+ <question id='profe010'>
   <type>radio</type>
   <title>Cada cuantos minutos reaparece el dragón despues de matarlo por primera vez?</title>
   <option>5</option>
@@ -86,22 +102,4 @@
   <option>4</option>
   <answer>2</answer>
  </question>
- 
- <question id='profe0010'>
-  <type>text</type>
-  <title>Como se llama ese campeon que tiene una espadita y tira tornados mientras grita?</title>
-  <answer>yasuo</answer>
- </question>
- 
- <question id='profe011'>
-  <type>select</type>
-  <title>Cual de los siguientes campeones grita "DEMACIAAAAAAAAA" como si le fuese la vida en ello cuando utilitza su definitiva?
-  <option>Xayah</option>
-  <option>Lux</option> 
-  <option>Gnar</option>
-  <answer>1</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
-  
- </question>
- 
- 
 </questions>
