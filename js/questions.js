@@ -130,6 +130,7 @@ window.onload=function(){
 				for (i=0; i< nres; i++){
 						respuestaRadio1[i]=xmlDoc.getElementById("profe010").getElementsByTagName("answer")[i].innerHTML;
 				}
+	}
 				
 	
 	
