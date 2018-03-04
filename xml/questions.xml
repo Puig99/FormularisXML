@@ -28,12 +28,13 @@
     </question>
     <question id="profe004">
 	<type>checkbox</type>
-	<title>Que de los siguientes campeones NO pertenece a "Los guardianes de las Estrellas"?</title>
-	<option>Ahri</option>
+	<title>Cuales de los siguientes campeones NO pertenecen a "Los guardianes de las Estrellas"?</title>
+	<option>Tu primo el del pueblo </option>
 	<option>Jinx</option>
 	<option>Jaraxxus</option>
 	<option>Lulu :^)</option>
 	<answer>2</answer>
+	<answer>0</answer>
     </question>
     <question id="profe005">
 	<type>text</type>
@@ -67,7 +68,7 @@
  <question id="profe009">
 	<type>checkbox</type>
 	<title>Que skin regalaban con la edición física del juego?</title>
-	<option>>Ryze humano y Alistar negro</option>
+	<option>Ryze humano y Alistar negro</option>
 	<option>Gragas Operaciones Articas y Alistar negro</option>
 	<option>Kayle sin casco y Ryze humano</option>
 	<option>Riot no regala nada jaja</option>
