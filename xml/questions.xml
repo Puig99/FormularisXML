@@ -74,15 +74,6 @@
   <answer>3</answer>
  </question>
  
- <question id='profe008'>
-  <type>checkbox</type>
-  <title>Cual es el maximo de centinelas de visión o "pink wards" que puede llevar un jugador en su inventario?</title>
-  <option>2</option>
-  <option>3</option> 
-  <option>1</option> 
-  <option>¿¡¿¡¿Pink wards?!?!?</option>
-  <answer>1</answer>
- </question>
  
  <!-- Radio -->
  
@@ -96,14 +87,21 @@
   <answer>2</answer>
  </question>
  
- <question id='profe010'>
-  <type>radio</type>
-  <title>Como se llama la habilidad definitiva de Aatrox?</title>
-  <option>Furia Inmortal</option>
-  <option>Espada del tormento</option> 
-  <option>Masacre</option> 
-  <option>Sorpresa icathiana</option>
-  <answer>2</answer>
+ <question id='profe0010'>
+  <type>text</type>
+  <title>Como se llama ese campeon que tiene una espadita y tira tornados mientras grita?</title>
+  <answer>yasuo</answer>
  </question>
+ 
+ <question id='profe011'>
+  <type>select</type>
+  <title>Cual de los siguientes campeones grita "DEMACIAAAAAAAAA" como si le fuese la vida en ello cuando utilitza su definitiva?
+  <option>Xayah</option>
+  <option>Lux</option> 
+  <option>Gnar</option>
+  <answer>1</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+  
+ </question>
+ 
  
 </questions>
