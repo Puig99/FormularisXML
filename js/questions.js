@@ -356,12 +356,12 @@ function comprobar(){
     return false;
 
 
-   } if (!checked) {    
+   } else if (!checked) {    
     document.getElementsByTagName("h3")[6].focus();
     alert("Selecciona una opció del checkbox");
     return false;
 	   
-   } if (!checked) {    
+   } else if (!checked) {    
     document.getElementsByTagName("h3")[7].focus();
     alert("Selecciona una opció del radio");
     return false;
@@ -369,7 +369,7 @@ function comprobar(){
 	   
 
     } else{  return true;
-	  }
+	  
 }
 
 
