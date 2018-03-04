@@ -44,7 +44,7 @@
 
 	 <question id="profe006">
 	<type>checkbox</type>
-	<title>Que campeón pertenece a la raza "Vastaya"?</title>
+	<title>Que campeones pertenecen a la raza "Vastaya"?</title>
 	<option>Kog'Maw</option>
 	<option>Jarvan IV</option>
 	<option>Rakan</option>
