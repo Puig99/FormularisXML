@@ -288,11 +288,11 @@ function corregirCheckbox1(){
 
 function corregirRadio1(){
   var sel = formElement.elements[7];  
-  if (sel.selectedIndex-1==respuestaRadio1)
+  if (sel.selectedIndex-1==respuestaRadio1){
    darRespuestaHtml("Pregunta 8: Correcte!");
    nota +=1;
   }
-  else darRespuestaHtml("Pregunta 8: Incorrecte");
+  else{ darRespuestaHtml("Pregunta 8: Incorrecte");
 }
 
 function corregirMultiple1(){
@@ -306,11 +306,11 @@ function corregirMultiple1(){
 
 function corregirMultiple2(){
   var sel = formElement.elements[5];  
-  if (sel.selectedIndex-1==respuestaSMultiple2)
+  if (sel.selectedIndex-1==respuestaSMultiple2){
    darRespuestaHtml("Pregunta 6: Correcte!");
    nota +=1;
   }
-  else darRespuestaHtml("Pregunta 6: Incorrecte");
+  else{ darRespuestaHtml("Pregunta 6: Incorrecte");
 }
 
 //Presentar respuestas
