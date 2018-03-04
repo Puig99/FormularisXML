@@ -370,6 +370,6 @@ function comprobar(){
 
     } else  return true;
 }
-
+}
 
 				
