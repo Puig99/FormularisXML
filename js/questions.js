@@ -17,7 +17,6 @@ window.onload=function(){
 	 formElement=document.getElementById('myform');
  formElement.onsubmit=function(){
    inicializar();
-   if {
     mostrar= document.getElementById("resultadosDiv").style.display = "inline-block";
     corregirText();
     corregirText2();
@@ -28,7 +27,6 @@ window.onload=function(){
     corregirSelect1();
     corregirSelect2();
     presentarNota();
-   }
    return false;
  }
 
