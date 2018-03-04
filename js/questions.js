@@ -169,7 +169,6 @@ function corregirNumber(){
   var s=formElement.elements[0].value;     
   if (s==numeroSecreto) {
    darRespuestaHtml("Pregunta 1: Correcte!");
-      darRespuestaHtml();
    nota +=1;
   }
   else {
