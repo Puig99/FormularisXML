@@ -226,6 +226,44 @@ window.onload=function(){
 }
 
 //implementacion de la correccion 
+//comprobar que se ha respondido
+function comprobar(){
+   var f=formElement;
+   var checked=false;
+   var checked3=false;
+   for (i = 0; i < f.color.length; i++) { 
+      if (f.color[i].checked) checked=true;
+   }
+   for (i = 0; i < f.color3.length; i++) { 
+      if (f.color3[i].checked) checked3=true;
+   }
+ 
+
+   } else if (f.elements[2].selectedIndex==-1) {
+    f.elements[2].focus();
+    alert("Selecciona una opció");
+    return false;
+	  
+   } else if (f.elements[3].selectedIndex==-1) {
+    f.elements[3].focus();
+    alert("Selecciona una opció");
+    return false;
+
+
+   } if (!checked) {    
+    document.getElementsByTagName("h3")[6].focus();
+    alert("Selecciona una opció del checkbox");
+    return false;
+	   
+   } if (!checked) {    
+    document.getElementsByTagName("h3")[7].focus();
+    alert("Selecciona una opció del radio");
+    return false;
+		   
+	   
+
+    } else  return true;
+}
 
 
 				
