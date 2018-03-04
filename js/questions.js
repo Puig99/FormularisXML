@@ -225,7 +225,7 @@ function corregirCheckbox(){
      darRespuestaHtml("Pregunta 3: opció "+i+" Incorrecte");
     } 
    } 
-  } darRespuestaHtml()  
+  } 
 }
 //Si necesitáis ayuda para hacer un corregirRadio() decirlo, lo ideal es que a podáis construirla modificando corregirCheckbox
 function corregirCheckbox1(){
@@ -247,15 +247,14 @@ function corregirCheckbox1(){
      darRespuestaHtml("Pregunta 4: opció "+i+" Incorrecte");
     }   
    } 
-  } darRespuestaHtml();
+  }
 }
 function corregirNombre(){
   //Vosotros debéis comparar el texto escrito con el texto que hay en el xml
   //en este ejemplo hace una comparación de números enteros
   var s1= formElement.elements[10].value; 
   if (s1==nombreSecreto) {
-   darRespuestaHtml("Pregunta 5: Correcte!")
-      darRespuestaHtml();
+   darRespuestaHtml("Pregunta 5: Correcte!");
    nota +=1;
   }
   else {
@@ -281,7 +280,7 @@ function corregirCheckbox2(){
      darRespuestaHtml("Pregunta 6: opció "+i+" Incorrecte");
     }   
    } 
-  } darRespuestaHtml();
+  }
 }
 function corregirSelect1(){
   //Compara el índice seleccionado con el valor del íncide que hay en el xml (<answer>2</answer>)
@@ -290,7 +289,6 @@ function corregirSelect1(){
   var sel1 = formElement.elements[15];  
   if (sel1.selectedIndex-1==respuestaSelect1) { //-1 porque hemos puesto una opción por defecto en el select que ocupa la posición 0
    darRespuestaHtml("Pregunta 7: Correcte!");
-      darRespuestaHtml();
    nota +=1;
   }
   else darRespuestaHtml("Pregunta 7: Incorrecte");
@@ -308,8 +306,7 @@ function corregirCheckbox3(){
     //si es correcta sumamos y ponemos mensaje, si no es correcta restamos y ponemos mensaje.
     if (escorrecta3[i]) {
      nota +=1.0/respuestasCheckbox3.length;  //dividido por el número de respuestas correctas   
-     darRespuestaHtml("Pregunta 9: Correcte!");
-        darRespuestaHtml();    
+     darRespuestaHtml("Pregunta 9: Correcte!");    
     } else {
      nota -=1.0/respuestasCheckbox3.length;  //dividido por el número de respuestas correctas   
      darRespuestaHtml("Pregunta 9: Incorrecte");
@@ -324,7 +321,6 @@ function corregirSelect2(){
   var sel2 = formElement.elements[21];  
   if (sel2.selectedIndex-1==respuestaSelect2) { //-1 porque hemos puesto una opción por defecto en el select que ocupa la posición 0
    darRespuestaHtml("Pregunta 10: Correcte!");
-      darRespuestaHtml();
    nota +=1;
   }
   else darRespuestaHtml("Pregunta 10: Incorrecte");
@@ -445,7 +441,7 @@ function darRespuestaHtml(r){
 }
 
 function presentarNota(){
-   darRespuestaHtml("Nota: "+nota+" punts sobre 10");
+   darRespuestaHtml("Nota: "+nota+" de 10");
 }
 
 function inicializar(){
