@@ -297,11 +297,11 @@ function corregirRadio1(){
 
 function corregirMultiple1(){
   var sel = formElement.elements[4];  
-  if (sel.selectedIndex-1==respuestaSMultiple1)
+  if (sel.selectedIndex-1==respuestaSMultiple1){
    darRespuestaHtml("Pregunta 5: Correcte!");
    nota +=1;
   }
-  else darRespuestaHtml("Pregunta 5: Incorrecte");
+  else{ darRespuestaHtml("Pregunta 5: Incorrecte");
 }
 
 function corregirMultiple2(){
