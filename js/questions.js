@@ -17,8 +17,8 @@ window.onload=function(){
 	 formElement=document.getElementById('myform');
  formElement.onsubmit=function(){
    inicializar();
-   if (comprobar()){
-    mostrar=document.getElementById("resultadosDiv").style.display = "inline-block";
+   if {
+    mostrar= document.getElementById("resultadosDiv").style.display = "inline-block";
     corregirText();
     corregirText2();
     corregirMultiple1();
@@ -227,7 +227,7 @@ window.onload=function(){
 
 //implementacion de la correccion 
 function corregirSelect1(){
-  var sel = formElement.elements[2];  
+  var sel = formElement.elements[5];  
   if (sel.selectedIndex-1==respuestaSelect1){
    darRespuestaHtml("Pregunta 3: Correcte!");
    nota +=1;
@@ -235,7 +235,7 @@ function corregirSelect1(){
   else{ darRespuestaHtml("Pregunta 3: Incorrecte");
 }
 function corregirSelect2(){
-  var sel = formElement.elements[3];  
+  var sel = formElement.elements[7];  
   if (sel.selectedIndex-1==respuestaSelect2){
    darRespuestaHtml("Pregunta 4: Correcte!");
    nota +=1;
@@ -244,7 +244,7 @@ function corregirSelect2(){
 }
 
 function corregirText(){
-  var s1= formElement.elements[0].value; 
+  var s1= formElement.elements[1].value; 
   if (s1==respuestaText1) {
    darRespuestaHtml("Pregunta 1: Correcte!");
    nota +=1;
@@ -255,7 +255,7 @@ function corregirText(){
 }
 
 function corregirText2(){
-  var s1= formElement.elements[1].value; 
+  var s1= formElement.elements[3].value; 
   if (s1==respuestaText2) {
    darRespuestaHtml("Pregunta 2: Correcte!");
    nota +=1;
@@ -287,7 +287,7 @@ function corregirCheckbox1(){
 }
 
 function corregirRadio1(){
-  var sel = formElement.elements[7];  
+  var sel = formElement.elements[12];  
   if (sel.selectedIndex-1==respuestaRadio1){
    darRespuestaHtml("Pregunta 8: Correcte!");
    nota +=1;
@@ -296,7 +296,7 @@ function corregirRadio1(){
 }
 
 function corregirMultiple1(){
-  var sel = formElement.elements[4];  
+  var sel = formElement.elements[];  
   if (sel.selectedIndex-1==respuestaSMultiple1){
    darRespuestaHtml("Pregunta 5: Correcte!");
    nota +=1;
@@ -331,48 +331,6 @@ function inicializar(){
    nota=0.0;
 }
 
-
-//comprobar que se ha respondido
-function comprobar(){
-   var f=formElement;
-   var checked=false;
-   var checked3=false;
-   for (i = 0; i < f.color.length; i++) { 
-      if (f.color[i].checked) checked=true;
-   }
-   for (i = 0; i < f.color3.length; i++) { 
-      if (f.color3[i].checked) checked3=true;
-   }
- 
-
-    if (f.elements[2].selectedIndex==-1) {
-    f.elements[2].focus();
-    alert("Selecciona una opció");
-    return false;
-	  
-   } else if (f.elements[3].selectedIndex==-1) {
-    f.elements[3].focus();
-    alert("Selecciona una opció");
-    return false;
-
-
-   } else if (!checked) {    
-    document.getElementsByTagName("h3")[6].focus();
-    alert("Selecciona una opció del checkbox");
-    return false;
-	   
-   } else if (!checked) {    
-    document.getElementsByTagName("h3")[7].focus();
-    alert("Selecciona una opció del radio");
-    return false;
-		   
-	   
-
-    } else{  return true;
-	  
-}
-}
-}
 
 
 				
