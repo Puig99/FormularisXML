@@ -13,8 +13,7 @@
 										<xs:enumeration value="select"/>
 										<xs:enumeration value="text"/>
 										<xs:enumeration value="checkbox"/>
-										<xs:enumeration value="radio"/>
-										<xs:enumeration value="multiple"/>
+										<xs:enumeration value="number"/>
 									</xs:restriction>
 								</xs:simpleType>
 							</xs:element>
