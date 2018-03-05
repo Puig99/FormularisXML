@@ -171,9 +171,7 @@ function corregirNumber(){
    darRespuestaHtml("Pregunta 1: Correcte!");
    nota +=1;
   }
-  else {
-    if (s>numeroSecreto) darRespuestaHtml("Pregunta 1:Correcte!");
-    else darRespuestaHtml("Pregunta 1: Como que no, maquina ");
+  else { darRespuestaHtml("Pregunta 1: Como que no, maquina ");
   }
 }
 function corregirNumber1(){
