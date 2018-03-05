@@ -44,7 +44,7 @@ window.onload = function(){
    
   }
  };
- xhttp.open("GET", "xml/questions.xml", true);
+ xhttp.open("GET", "https://rawgit.com/Puig99/FormularisXML/master/xml/questions.xml", true);
  xhttp.send();
  
 }
