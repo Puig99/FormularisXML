@@ -9,7 +9,7 @@
  	<answer>3</answer>
     </question>
     <question id="profe002">
-	<title>Que camppeón podia empujar al Barón Nashor por todo el mapa?</title>
+	<title>Que campeón podia empujar al Barón Nashor por todo el mapa?</title>
 	<option>Blitzcrank</option>
  	<option>Alistar</option>
  	<option>Poppy</option>
@@ -18,7 +18,7 @@
     </question>  
     <question id="profe003">
 	<type>checkbox</type>
-	<title>Cual de los siguientes personajes NO llegó a salir?</title>
+	<title>Cuales de los siguientes personajes NO llegó a salir?</title>
 	<option>Aurelion Sol</option>
 	<option>Ao Shin</option>
 	<option>Yasuo</option>
