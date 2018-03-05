@@ -10,3 +10,5 @@ Aquest examen compta amb 4 tipus de preguntes:
 * Numero 
     
  La codificació de la pàgina s'ha duit a terme amb HTML, CSS, XML i JS
+ 
+ Adjunt un link del rawgit de la web [aqui](https://rawgit.com/Puig99/FormularisXML/master/index.html)
