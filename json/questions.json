@@ -1,0 +1,114 @@
+{
+  "questions": {
+    "question": [
+      {
+        "-id": "profe001",
+        "type": "number",
+        "title": "Cuantos pink wards pueden llevarse a la vez en el inventario?",
+        "answer": "3"
+      },
+      {
+        "-id": "profe002",
+        "title": "Que camppeón podia empujar al Barón Nashor por todo el mapa?",
+        "option": [
+          "Blitzcrank",
+          "Alistar",
+          "Poppy",
+          "Azir"
+        ],
+        "answer": "2"
+      },
+      {
+        "-id": "profe003",
+        "type": "checkbox",
+        "title": "Cual de los siguientes personajes NO llegó a salir?",
+        "option": [
+          "Aurelion Sol",
+          "Ao Shin",
+          "Yasuo",
+          "Urf"
+        ],
+        "answer": [
+          "1",
+          "3"
+        ]
+      },
+      {
+        "-id": "profe004",
+        "type": "checkbox",
+        "title": "Cuales de los siguientes campeones NO pertenecen a \"Los guardianes de las Estrellas\"?",
+        "option": [
+          "Tu primo el del pueblo ",
+          "Jinx",
+          "Jaraxxus",
+          "Lulu :^)"
+        ],
+        "answer": [
+          "2",
+          "0"
+        ]
+      },
+      {
+        "-id": "profe005",
+        "type": "text",
+        "title": "Como se llama el campeón de Marc Merrill?",
+        "answer": "tryndamere"
+      },
+      {
+        "-id": "profe006",
+        "type": "checkbox",
+        "title": "Que campeones pertenecen a la raza \"Vastaya\"?",
+        "option": [
+          "Kog'Maw",
+          "Jarvan IV",
+          "Rakan",
+          "Xayah"
+        ],
+        "answer": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "-id": "profe007",
+        "title": "Cada cuantos minutos reaparece el dragón despues de matarlo por primera vez?",
+        "option": [
+          "6",
+          "5",
+          "7",
+          "4"
+        ],
+        "answer": "0"
+      },
+      {
+        "-id": "profe008",
+        "type": "number",
+        "title": "A que minuto aparece el magnifico, maravilloso y feo Barón Nashor?",
+        "answer": "20"
+      },
+      {
+        "-id": "profe009",
+        "type": "checkbox",
+        "title": "Que skin regalaban con la edición física del juego?",
+        "option": [
+          "Ryze humano y Alistar negro",
+          "Gragas Operaciones Articas y Alistar negro",
+          "Kayle sin casco y Ryze humano",
+          "Riot no regala nada jaja"
+        ],
+        "answer": "0"
+      },
+      {
+        "-id": "profe010",
+        "title": "Como se llama la pasiva de Kog'Maw?",
+        "option": [
+          "Furia Inmortal",
+          "Sorpresa Icathiana",
+          "RATATATATATA",
+          "PUM Y EXPLOTA"
+        ],
+        "answer": "1"
+      }
+    ]
+  }
+}
