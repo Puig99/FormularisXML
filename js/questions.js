@@ -467,35 +467,35 @@ function comprobar(){
    
     if (f.elements[4].value=="") {
     f.elements[4].focus();
-    alert("Escriu un nom");
+    alert("Escriu un nombre");
     return false;
    } else if (f.elements[1].selectedIndex==0) {
     f.elements[1].focus();
-    alert("Selecciona una opció");
+    alert("Selecciona una opció del primer select");
     return false;
    } else if (f.elements[15].selectedIndex==0) {
     f.elements[1].focus();
-    alert("Selecciona una opció (2)");
+    alert("Selecciona una opció del segon select");
     return false; 
     } else if (f.elements[21].selectedIndex==0) {
     f.elements[1].focus();
-    alert("Selecciona una opció (3)");
+    alert("Selecciona una opció del tercer select");
     return false; 
    } if (!checked) {    
     document.getElementsByTagName("h3")[2].focus();
-    alert("Selecciona una opció del checkbox");
+    alert("Selecciona una opció del primer checkbox");
     return false;
     } if (!checked1) {    
     document.getElementsByTagName("h3")[3].focus();
-    alert("Selecciona una opció del checkbox(2)");
+    alert("Selecciona una opció del segon checkbox");
     return false;
     } if (!checked2) {    
     document.getElementsByTagName("h3")[5].focus();
-    alert("Selecciona una opció del checkbox(3)");
+    alert("Selecciona una opció del tercer checkbox");
     return false;
     } if (!checked3) {
     document.getElementsByTagName("h3")[8].focus();
-    alert("Selecciona una opció del checkbox(4)");
+    alert("Selecciona una opció del cuart checkbox");
     return false;
     } else  return true;
 }
